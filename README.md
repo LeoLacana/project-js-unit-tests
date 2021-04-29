@@ -86,7 +86,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
   - Será um dia de projeto;
 
-  - Data de entrega para avaliação final do projeto: `06/05/2021 - 14:00h
+  - Data de entrega para avaliação final do projeto: `06/05/2021 - 14:00h`
 
 ---
 
