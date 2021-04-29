@@ -1,7 +1,6 @@
 on:
   pull_request:
     types: [opened, synchronize]
-
 jobs:
   eslint:
     runs-on: ubuntu-18.04
@@ -10,8 +9,8 @@ jobs:
       - uses: actions/setup-node@v1.4.4
         with:
           node-version: '12'
-      - name: EsLint
-        uses: betrybe/eslint-linter-action@v2.1
+      - name: ESLint
+        uses: betrybe/eslint-linter-action@v2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,3 +32,4 @@ jobs:
           evaluation-data: ${{ steps.test.outputs.result }}
           environment: production
           pr-number: ${{ github.event.number }}
+          
