@@ -4,7 +4,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e
 
 # Boas vindas ao repositório do projeto de ES6 e Testes Unitários!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
@@ -24,7 +24,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
-  - [EsLint](#eslint)
+  - [ESLint](#eslint)
 - [Requisitos do projeto](#requisitos-do-projeto)
 - [Lista de requisitos](#lista-de-requisitos)
   - [Implemente a função average](#1---implemente-a-função-average)
