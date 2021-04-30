@@ -12,7 +12,17 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {};
+let mediumNumb = (value) => {
+  let some = 0;
+  for (let index = 0; index < value.length; index += 1) {
+    some += value[index];
+  }
+  return some / (value.length);
+};
+
+const average = (value) => {
+  let medium = (typeof (value) !== 'object' || value.length === 0) ? undefined : mediumNumb(value);
+  return medium;
+};
 
 module.exports = average;
-
