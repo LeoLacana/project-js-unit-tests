@@ -12,17 +12,25 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-let mediumNumb = (value) => {
+function mediaNumb(value) {
   let some = 0;
   for (let index = 0; index < value.length; index += 1) {
+    if (typeof (value[index]) === 'string') { 
+      return undefined;
+    }
     some += value[index];
   }
-  return some / (value.length);
-};
+  return Math.round(some / (value.length));
+}
 
-const average = (value) => {
-  let medium = (typeof (value) !== 'object' || value.length === 0) ? undefined : mediumNumb(value);
-  return medium;
-};
+function average(value) {
+  if (typeof (value) !== 'object' || value.length === 0) {
+  return undefined;
+  }
+  return mediaNumb(value);
+}
+
+let x = [1, '2', 4];
+console.log(average(x));
 
 module.exports = average;
