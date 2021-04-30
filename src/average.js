@@ -29,8 +29,4 @@ function average(value) {
   }
   return mediaNumb(value);
 }
-
-let x = [1, '2', 4];
-console.log(average(x));
-
 module.exports = average;
